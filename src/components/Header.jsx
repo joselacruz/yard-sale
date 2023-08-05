@@ -59,7 +59,7 @@ const Header = () => {
     <img src = {menu} alt="menu" className="menu"/>
 
     <div className="navbar-left">
-        <img src={logo} alt="logo" className="nav-logo" />
+        <img src={logo} alt="logo" className="nav-logo"  onClick={()=> {window.location = "/" }}/>
        <Category/>
     </div>
 
