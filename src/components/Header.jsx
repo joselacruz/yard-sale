@@ -11,6 +11,7 @@ import Portal from "@components/Portal";
 import ToggleMenuMobile from '@components/ToggleMenuMobile'
 
 const Header = () => {
+  console.log("header");
   const [toggle,setToggle] = useState(false);
   const [toogleOrders, setToggleOrders] = useState(false);
   const {state,getInfoProfile} = useContext(AppContext);

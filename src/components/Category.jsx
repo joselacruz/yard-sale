@@ -3,6 +3,7 @@ import useGetCategory from "@hooks/useGetCategory";
 import { ProductContext } from "../context/ProductContext";
 
 const Category = () => {
+
   const listCategory = useGetCategory();
   const { products, setProducts, immutableProducts } = useContext(ProductContext);
   const [activeCategory, setActiveCategory] = useState("All"); // Usamos un estado para almacenar la categoría activa
